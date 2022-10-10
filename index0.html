@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <title>My Web Page!</title>
+ <meta charset= "utf-8">
+<meta name = "author" content= "Jaedan Smith">
+<link href="main.css" rel ="stylesheet">
+<script src = calc.js> </script>
+</head>
+ <body>
+    <noscript> Please enable Javascript for the site to work</noscript>
+    <h1> Assignment 3</h1>
+    <p class = "p">  Enter in a number and a list of all prime numbers less than your number will appear</p>
+
+    <form>
+        <label for "num"> Enter Your Number here</label>
+        <input type = "number" id="Num" step ="1" onchange ="checkValid(form);"required> <br>
+        <input type = "button" class = "btn" id = "btn" value = "calculate" onclick=" Calculatenum(form);"> <br>
+    </form>
+
+    <p class = "p" id = "solution"> &nbsp</p>
+</body>
+
+

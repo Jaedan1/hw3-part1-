@@ -1,0 +1,31 @@
+.p{
+    font-size: 2em;
+}
+body{
+    background-color: blue;
+    justify-content: center; 
+}
+.btn{
+    all: unset;
+    text-align: center;
+    color:coral;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius:  30px;
+    width: 75px;
+    height: 70px;
+
+ 
+}
+.btn:hover{
+    background-color: gray;
+    transition: background-color ease-in-out 0.5s;
+    cursor: pointer;
+}
+input:focus:invalid{
+    border-color: red;
+}
+input:focus:valid{
+    border-color: green;
+}
